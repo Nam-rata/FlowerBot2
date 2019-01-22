@@ -26,7 +26,7 @@
         },
         {"tag": "accreditation",
          "patterns": ["What accreditations has nmims received?", "accreditation", "certifications", "which all accreditation are there"],
-         "responses": ["NBA Accreditation: Computer Engineering & Electronics and Telecommunication Programs have been accredited by                    National Board of Accreditation under Tier – I for two years. (implies international accreditation)", "The Programs offered at              MPSTME are All India Council for Technical Education(AICTE) Approved"]
+         "responses": ["NBA Accreditation", "NBA Accreditation-Computer Engineering & Electronics and Telecommunication Programs have been accredited by National Board of Accreditation under Tier – I for two years. (implies international accreditation)", "The Programs offered at MPSTME are All India Council for Technical Education(AICTE) Approved"]
         }
    ]
 }
