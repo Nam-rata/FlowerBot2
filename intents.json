@@ -29,15 +29,15 @@
      	"What is the admission process for PGDM?", "What is the admission process for MTech?", "What is the admission process for MCA?"  ],
      	"responses": ["The admission details for this course are updated on our website whenever the admission process begins. Please follow this link to view all ongoing admission processes - https://engineering.nmims.edu/academics/admissions/"]
     	},
-{"tag": "accreditation",
- "patterns": ["What accreditations has nmims received?", "accreditation", "certifications", "which    all accreditation are there"],
-"responses": ["NBA Accreditation: Computer Engineering & Electronics and Telecommunication Programs have been accredited by National Board of Accreditation under Tier – I for two years. (implies international accreditation)", "The Programs offered at MPSTME are All India Council for Technical Education(AICTE) Approved"]
-},
-{"tag": "streamartificialintelligence",
-"patterns": ["stream artificial intelligence", "stream AI", "what is ai stream", "courses in artificial intelligence", "what is artificial intelligence stream", "i want to know about the ai stream at NMIMS", "i want to know about the artificial intelligence stream in this college", "give some information about artificial intelligence field in this college", "tell me about ai stream in this college", "tell me about artificial intelligence stream in this college"],
-"responses": ["It’s a Futuristic course, Mostly hands-on program to solve AI problem to solve industry problem – A course on Problem solving! We offer Artificial Intelligence Stream in the following Course - M. Tech"]
-},
-{"tag": "offensivewords",
+        {"tag": "accreditation",
+         "patterns": ["What accreditations has nmims received?", "accreditation", "certifications", "which    all accreditation are there"],
+        "responses": ["NBA Accreditation: Computer Engineering & Electronics and Telecommunication Programs have been accredited by National Board of Accreditation under Tier – I for two years. (implies international accreditation)", "The Programs offered at MPSTME are All India Council for Technical Education(AICTE) Approved"]
+        },
+        {"tag": "streamartificialintelligence",
+        "patterns": ["stream artificial intelligence", "stream AI", "what is ai stream", "courses in artificial intelligence", "what is artificial intelligence stream", "i want to know about the ai stream at NMIMS", "i want to know about the artificial intelligence stream in this college", "give some information about artificial intelligence field in this college", "tell me about ai stream in this college", "tell me about artificial intelligence stream in this college"],
+        "responses": ["It’s a Futuristic course, Mostly hands-on program to solve AI problem to solve industry problem – A course on Problem solving! We offer Artificial Intelligence Stream in the following Course - M. Tech"]
+        },
+        {"tag": "offensivewords",
      	"patterns": ["Stupid", "Idiot", "Useless", "Dumb", "You are not helpful", "You are a dumb bot", "You are stupid"],
      	"responses": ["Please don't say that! I will try to be better next time.", "Sorry, I will try to be better next time."]
     	},
