@@ -1,32 +1,75 @@
 {"intents": [
-        {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
-         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
-         "context_set": ""
-        },
-        {"tag": "goodbye",
-         "patterns": ["Bye", "See you later", "Goodbye"],
-         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
-        },
-        {"tag": "thanks",
-         "patterns": ["Thanks", "Thank you", "That's helpful"],
-         "responses": ["Your welcome!", "Any time!", "My pleasure"]
-        },
-	    {"tag": "noanswer",
-         "patterns": [""],
-         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
-        },
+    	{"tag": "greeting",
+     	"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Hey"],
+     	"responses": ["Hello, how can I help you?", "Hey, how can I help you?", "Hi there, how can I help?"],
+     	"context_set": ""
+    	},
+    	{"tag": "goodbye",
+     	"patterns": ["Bye", "See you later", "Goodbye"],
+     	"responses": ["Goodbye, I hope I answered your queries.", "Have a nice day!", "Bye! Come back again soon."]
+    	},
+    	{"tag": "thanks",
+     	"patterns": ["Thanks", "Thank you", "That's helpful"],
+     	"responses": ["Your welcome!", "Any time!", "My pleasure"]
+    	},
+    	{"tag": "noanswer",
+     	"patterns": [""],
+     	"responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    	},
+    	{"tag": "generalfeestructure",
+     	"patterns": ["What is the college fees at MPSTME?", "How much fee is charged for engineering?", "What is the fess for engineering?", "What is the fees for different courses?", "What is the tuition fees?"],
+     	"responses": ["Fee structure for various programs at MPSTME: MBA Tech - 3.3-3.7LPA, BTech - 2.7-3.0LPA, BTech Integrated - 2.7-3.0LPA,, PHD - 0.5-0.7LPA, MTech - 1.2LPA, MCA - 1.1LPA, PGDM - 4.9LPA"]
+    	},
+    	{"tag": "btechandmbatechadmissions",
+     	"patterns": ["What is the admission process for BTech?", "What is the admission process for MBA Tech?", "How can I get into MBA Tech program?", "How can I get into BTech program?", "Tell me the admission details for MBA Tech", "Tell me the admission details for BTech"],
+     	"responses": ["Engineering aspirants interested for MBA Tech and BTech programs need to appear for NPAT. Admissions will be granted to various courses based on NPAT scores. You may follow the link for more information on NPAT - https://www.nmims.edu/docs/announcement-new-npat-pattern-for-engineering-programs.pdf"]
+    	},
+    	{"tag": "otherprogramsadmissions",
+     	"patterns": ["What is the admission process for BTech Integrated", "What is the admission process for MCA?",
+     	"What is the admission process for PGDM?", "What is the admission process for MTech?", "What is the admission process for MCA?"  ],
+     	"responses": ["The admission details for this course are updated on our website whenever the admission process begins. Please follow this link to view all ongoing admission processes - https://engineering.nmims.edu/academics/admissions/"]
+    	},
+{"tag": "accreditation",
+ "patterns": ["What accreditations has nmims received?", "accreditation", "certifications", "which    all accreditation are there"],
+"responses": ["NBA Accreditation: Computer Engineering & Electronics and Telecommunication Programs have been accredited by National Board of Accreditation under Tier – I for two years. (implies international accreditation)", "The Programs offered at MPSTME are All India Council for Technical Education(AICTE) Approved"]
+},
+{"tag": "streamartificialintelligence",
+"patterns": ["stream artificial intelligence", "stream AI", "what is ai stream", "courses in artificial intelligence", "what is artificial intelligence stream", "i want to know about the ai stream at NMIMS", "i want to know about the artificial intelligence stream in this college", "give some information about artificial intelligence field in this college", "tell me about ai stream in this college", "tell me about artificial intelligence stream in this college"],
+"responses": ["It’s a Futuristic course, Mostly hands-on program to solve AI problem to solve industry problem – A course on Problem solving! We offer Artificial Intelligence Stream in the following Course - M. Tech"]
+},
+{"tag": "offensivewords",
+     	"patterns": ["Stupid", "Idiot", "Useless", "Dumb", "You are not helpful", "You are a dumb bot", "You are stupid"],
+     	"responses": ["Please don't say that! I will try to be better next time.", "Sorry, I will try to be better next time."]
+    	},
+    	{"tag": "affirmative",
+     	"patterns": ["Okay!", "Yes", "Cool", "Alright", "Fine", "Got it"],
+     	"responses": ["I hope I answered your query", "What else can I help you with?", "Okay"]
+    	}, 	 
+    	{"tag": "undergradprograms",
+     	"patterns": ["I want to know about the Undergraduate Programs in this college.", "I want to know about the Undergraduate Programs.",
+     	"Tell me about the UG Programs in this college.", "What ug programs are available?", "What undergrad programs are available?",
+     	"What undergraduate programs are available?", "Tell me about the undergrad Programs in this college.", "Tell me about the undergraduate Programs in this college."],
+     	"responses": ["We provide the following Undergraduate Programs - B. Tech (4 Years after 12th grade), B. Tech Integrated (6 Years after 10th grade)"]
+    	},
+    	{"tag": "postgradprograms",
+     	"patterns": ["I want to know about the Postgraduate Programs in this college.", "I want to know about the Postgraduate Programs.",
+     	"Tell me about the PG Programs in this college.", "What PG programs are available?", "What postgrad programs are available?",
+     	"What Postgraduate programs are available?", "Tell me about the Postgrad Programs in this college.", "Tell me about the Postgraduate Programs in this college."],
+     	"responses": ["We provide the following Postgraduate Programs - PGDM- Real Estate Construction and Management, MCA- Master of Computer Application, M. Tech, Ph.D"]
+    	},
+    	{"tag": "integratedprograms",
+     	"patterns": ["Tell me about the integrated programs in this college.", "Tell me about the integrated programs.",
+     	"I want to know more about the integrated courses at this college", "Integrated courses", "Dual degrees",
+     	"What dual degrees are available?", "Tell me about the dual degrees in this college.", "I want to know about the dual degrees in this college."],
+     	"responses": ["We provide the following Integrated Programs - MBA (Tech): 5 Years Dual Degree Integrated Program for 12th+ students. B. Tech+ MBA in Technology Management, B. Tech Integrated: 6 Years Integrated Diploma and Degree Program for 10th+ students"]
+    	},
         {"tag": "hours",
          "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
-         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+         "responses": ["We're open every day 10am-5pm", "Our hours are 10am-5pm every day"]
         },
         {"tag": "opentoday",
          "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
-         "responses": ["We're open every day from 8am-6pm", "Our hours are 9am-9pm every day"]
-        },
-        {"tag": "accreditation",
-         "patterns": ["What accreditations has nmims received?", "accreditation", "certifications", "which all accreditation are there"],
-         "responses": ["NBA Accreditation", "NBA Accreditation-Computer Engineering & Electronics and Telecommunication Programs have been accredited by National Board of Accreditation under Tier – I for two years. (implies international accreditation)", "The Programs offered at MPSTME are All India Council for Technical Education(AICTE) Approved"]
-        }
+         "responses": ["We're open every day from 10am-5pm", "Our hours are 10am-5pm every day"]
+        } 
    ]
 }
