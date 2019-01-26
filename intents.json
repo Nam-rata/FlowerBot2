@@ -73,8 +73,9 @@
         },
 {"tag": "CourseB.Tech",
  "patterns": ["Tell me about B.Tech course", "B.Tech Course info", "Qualification for B.tech Degree", "give me information about B.Tech Degree","B.Tech Intake","B.Tech strength","B.Tech seats","B.Tech in Shirpur Campus","B.Tech in Mumbai Campus"],
-"responses": ["Let me help you! We offer 4 year B. Tech Course for 12th+ Students at our Mumbai and Shirpur campuses. We provide B. Tech Degree in the following streams: <br> - Electrical (30 Seats) <br> - Data Science (60 Seats) <br>- Information Technology (60+60 Seats)<br> - Computer Engineering (120+60 Seats)<br> - Civil (60 Seats)<br> - Electronics and Telecommunication (60+60 Seats)<br> - Mechatronics (60+60 Seats)<br> - Mechanical (60+60 Seats)<br> *Seats: Mumbai + Shirpur  <br> Minimum 70% in 12th grade required."]
+"responses": ["Let me help you! We offer 4 year B. Tech Course for 12th+ Students at our Mumbai and Shirpur campuses. We provide B. Tech Degree in the following streams:\nElectrical (30 Seats) \nData Science (60 Seats) \nInformation Technology (60+60 Seats) \nComputer Engineering (120+60 Seats) \nCivil (60 Seats) \nElectronics and Telecommunication (60+60 Seats) \nMechatronics (60+60 Seats) \nMechanical (60+60 Seats) \n*Seats: Mumbai + Shirpur \nMinimum 70% in 12th grade required."]
 },
+
 {"tag": "whyCS",
      	"patterns": ["prerequisites for computer engineering", "skills required for engineering in computers", "i am confused if i should do engineering in CS engineering", "i am confused if i should do engineering in Computer science engineering", "should i choose b. tech in computer science engineering", "should i choose btech in computer engineering", "tell me if I should do engineering in computer engineering", "why should I opt for engineering in CS?", "why computer science course", "Why computer engineering"],
      	"responses": ["I can help you! If you think you are a Problem-Solver, a Troubleshooter, a Logical Thinker and most importantly if you are Passionate for Learning, I think Computer Engineering field is for you!"]
@@ -114,6 +115,10 @@
 {"tag": "whyIndustrialAutomation",
      	"patterns": ["prerequisites for industrial automation engineering", "skills required for engineering in industrial automation", "i am confused if i should do engineering in industrial automation engineering", "i am confused if i should do engineering in industrial automation engineering", "should i choose b. tech in industrial automation engineering", "should i choose btech in industrial automation engineering", "tell me if I should do engineering in industrial automation engineering", "why should I opt for engineering in industrial automation?", "why industrial automation course", "Why industrial automation engineering"],
      	"responses": ["I can help you. If you understand Programming and Software Development, PLC, HMI, SCADA Programming, Electronic Basics and you have a Detail-Oriented Personality, then this Industrial Automation course is for you!"]
+},
+{"tag": "emoticons",
+ "patterns": ["U+1F44D", "U+1F603", "U+1F600"],
+ "responses": ["U+1F603"]
 }
   	 
    	 
